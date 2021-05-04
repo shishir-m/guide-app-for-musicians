@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@color/black"
+        android:text="Tasks List"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_primary"
+        android:drawableEnd="@drawable/ic_add"
+        android:drawableRight="@drawable/ic_add"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/add"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_submit_list"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_primary"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/submit_list"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

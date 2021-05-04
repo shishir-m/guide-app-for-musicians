@@ -12,6 +12,7 @@
     <string name="cricketer_list">Cricketer List</string>
     <string name="add">Add</string>
     <string name="submit_list">Submit List</string>
+    <string name="guide_app_for_musicians">guide_app_for_musicians</string>
     <!-- Strings used for fragments for navigation -->
 
 </resources>
